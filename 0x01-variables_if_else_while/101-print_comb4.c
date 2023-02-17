@@ -15,7 +15,7 @@ int h;
 for (h = 0 ; h != 8 ; h++)
 {
 for (n = h + 1 ; n != 9 ; n++)
-                {
+{
 i = n + 1;
 do {
 putchar('0' + h);
@@ -29,4 +29,7 @@ putchar(32);
 i++;
 } while (i != 10);
 }
-
+}
+putchar('\n');
+return (0);
+}
